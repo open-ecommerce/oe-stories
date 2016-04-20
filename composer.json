@@ -1,7 +1,7 @@
 {
-  "name": "open-ecommerce/oe-team-members",
-  "description": "Team Members custom type for wordpress",
-  "keywords": ["wordpress", "plugin", "team members", "custom type"],
+  "name": "open-ecommerce/oe-stories",
+  "description": "Stories custom type for wordpress",
+  "keywords": ["wordpress", "plugin", "mds stories", "custom type"],
   "homepage": "http://www.open-ecommerce.org",
   "license": "GPL3",
   "authors": [
