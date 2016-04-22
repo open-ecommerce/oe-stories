@@ -36,7 +36,7 @@ function create_stories() {
         'supports' => array('title', 'editor', 'thumbnail'),
         'menu_icon' => plugins_url('images/oe-stories.png', __FILE__),
         'query_var' => true,
-        'rewrite' => array('slug' => 'member'),
+        'rewrite' => array('slug' => 'mds-stories'),
         'has_archive' => true,
         'captability_type' => 'post',
         'hierarchical' => 'false'
