@@ -45,7 +45,7 @@ function create_stories() {
 }
 
 
-add_filter('template_include', 'include_template_function', 1);
+add_filter('template_include', 'include_template_story', 1);
 
 function include_template_story($template_path) {
     if (get_post_type() == 'stories') {
@@ -54,7 +54,7 @@ function include_template_story($template_path) {
                 ('single-stories.php'))) {
                 $template_path = $theme_file;
             } else {
-                $template_path = plugin_dir_path(__FILE__) . '/single-story.php';
+                $template_path = plugin_dir_path(__FILE__) . '/single-stories.php';
             }
         }
     }
